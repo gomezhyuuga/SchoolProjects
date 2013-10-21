@@ -1,4 +1,8 @@
-SchoolProjects
+School Projects
 ==============
 
-School projects
+School code projects, homework or useful scripts!
+
+*See LICENSE*
+
+Fernando Gómez Herrera

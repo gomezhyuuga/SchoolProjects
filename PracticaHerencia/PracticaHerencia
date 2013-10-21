@@ -1,0 +1,45 @@
+
+/**
+ *
+ * @author Francisco Barros A01371000, Fernando Gomez Herrera a01020319
+ */
+public class CuentaAhorro extends CuentaBanco {
+
+    private double tasaInteres;
+
+    public CuentaAhorro(double tasaInteres) {
+        super(); // es lo mismo que super(0.0)
+        tasaInteres = 0.0;
+    }
+
+    public void agregarInteres() {
+        double interes = tasaInteres * getSaldo();
+        super.depositar(interes);
+    }
+
+    @Override
+    public void retirar(double cantidad) {
+        if (cantidad <= getSaldo()) {
+            super.retirar(cantidad);
+        } else {
+            System.out.println("NO CUENTAS CON LOS FONDOS SUFICIENTES");
+        }
+    }
+
+    @Override
+    public void transferir(double cantidad, CuentaBanco otra) {
+        if (cantidad <= getSaldo()) {
+            otra.depositar(cantidad);
+            this.retirar(cantidad);
+        } else {
+            System.out.println("NO CUENTAS CON LOS FONDOS SUFICIENTES");
+        }
+
+
+    }
+
+    @Override
+    public String toString() {
+        return ("CuentaAhorro" + "Saldo: " + tasaInteres);
+    }
+}
