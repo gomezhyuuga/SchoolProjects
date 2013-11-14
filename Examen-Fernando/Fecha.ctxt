@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Fecha()
+comment0.text=\r\n\ Inicializa\ con\ la\ fecha\ de\ hoy\r\n\ @return\ objeto\ con\ la\ fecha\ de\ hoy\r\n
+comment1.params=dia\ mes\ anio
+comment1.target=Fecha(int,\ int,\ int)
+comment1.text=\r\n\ Inicializar\ con\ una\ fecha\ en\ espec\u00EDfico\r\n\ @param\ \ dia\ \ int,\ n\u00FAmero\ del\ d\u00EDa\ 1-31\r\n\ @param\ \ mes\ \ int,\ n\u00FAmero\ del\ mes\ 1-12\r\n\ @param\ \ anio\ int,\ n\u00FAmero\ del\ a\u00F1o\r\n\ @return\ \ \ \ \ \ objeto\ con\ la\ fecha\ espec\u00EDfica\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ getDia()
+comment4.params=
+comment4.target=int\ getMes()
+comment5.params=
+comment5.target=int\ getAnio()
+comment6.params=dia
+comment6.target=void\ setDia(int)
+comment7.params=mes
+comment7.target=void\ setMes(int)
+comment8.params=anio
+comment8.target=void\ setAnio(int)
+numComments=9

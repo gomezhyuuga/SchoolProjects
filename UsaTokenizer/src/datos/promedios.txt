@@ -1,0 +1,6 @@
+Matemáticas,95
+POO,97
+Ética,93
+Probabilidad y Estadística,96
+Electricidad y Magnetismo,97
+Organización Computacional,93
