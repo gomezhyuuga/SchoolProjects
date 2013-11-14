@@ -19,10 +19,19 @@ public class Promedios {
             int cantidadMaterias = 0;
             while (bf.ready()) {
                 String line = bf.readLine();
+                int calif;
+                String nombre;
                 // "Matemáticas,80"
-                StringTokenizer st = new StringTokenizer(line, ",");
-                st.nextToken();
-                promedio += Integer.parseInt(st.nextToken());
+                /*StringTokenizer st = new StringTokenizer(line, ",");
+                nombre = st.nextToken();
+                calif = Integer.parseInt(st.nextToken());*/
+                String[] els = line.split(",");
+                nombre = els[0];
+                calif = Integer.parseInt(els[1]);
+                promedio += calif;
+                if (calif < 80) {
+                    System.out.println(nombre);
+                }
                 cantidadMaterias++;
             }
             promedio = promedio/cantidadMaterias;

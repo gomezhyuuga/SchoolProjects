@@ -4,3 +4,5 @@ POO,97
 Probabilidad y Estadística,96
 Electricidad y Magnetismo,97
 Organización Computacional,93
+EVAP,60
+FIS,70
