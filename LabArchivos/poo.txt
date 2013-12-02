@@ -1,0 +1,18 @@
+ISC11,a01020319,Fernando Gómez Herrera
+ISC11,a01166472,David Alberto Echauri Burgos
+ISD11,a01167163,Daniel Arturo Jimenez Espinosa
+ISC11,a01168965,Gabriel Olvera Ramos
+ISC11,a01370779,Miriam Gutiérrez Torres
+ISC11,a01371000,Francisco Manuel Barros Vargas
+INT11,a01371230,José Brandon Luz Gutiérrez
+ISC11,a01371282,Juan Manuel Rodríguez González
+ISC11,a01371286,Diego Alonzo Rodríguez París
+INT11,a01371509,Álvaro Axel De León Hernández
+ISC11,a01371614,Miryam Elizabeth Villa Pérez
+ISC11,a01371743,Luis Eduardo Ballinas Aguilar
+ISD11,a01371855,Omar David Hernández Gurrola
+ISC11,a01372023,Kevin Islas Abud
+ISC11,a01372223,Jonathan Josue Patlan Reyna
+ISD11,a01372224,Mario Eligio Mendoza Cuevas
+INT11,a01372276,José Eduardo Castilla Ibarra
+ISD11,a01372614,Luis Fernando Sánchez Martínez
